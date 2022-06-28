@@ -1,2 +1,12 @@
 @import './common';
-@import './example';
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	padding: 0 15px;
+	margin: 0 auto;
+}
