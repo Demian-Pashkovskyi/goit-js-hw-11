@@ -1,0 +1,29 @@
+.btn {
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-left: 10px;
+	background-color: rgba(0, 238, 255, 0.89);
+ }
+
+ // scroll to top
+#topBTN {
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 15px;
+	z-index: 99;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	background-color: goldenrod;
+	color: white;
+	cursor: pointer;
+	padding: 13px;
+	border-radius: 5px;
+ }
+ 
+ #topBTN:hover {
+	background-color: #555;
+ }
